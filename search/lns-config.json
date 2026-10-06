@@ -1,0 +1,20 @@
+{
+  "schema": "mota.goal-route.v1",
+  "mode": "lns",
+  "steps_file": "search/parent-steps.json",
+  "expected_hp": 49401,
+  "workers": 1,
+  "rounds": 3,
+  "max_seconds": 180,
+  "adaptive_access": true,
+  "move_collections": true,
+  "repair_survival": true,
+  "no_transit_fights": ["MT49"],
+  "gold_rate": 0.0,
+  "step_moves": true,
+  "relocate_window": 2,
+  "defer_horizon": 0,
+  "free_doors": false,
+  "drop_targets": false,
+  "purchase_moves": true
+}

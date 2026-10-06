@@ -1,0 +1,2 @@
+# Preserve vendored third-party snapshots byte-for-byte.
+cpp/third_party/** -whitespace

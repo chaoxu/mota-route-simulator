@@ -1,0 +1,59 @@
+{
+  "schema": "mota.public-solution.v1",
+  "release": "verified-witness-49409",
+  "provenance": {
+    "searchRevision": "783568c70c32c7fc0ed52ec25e68bd40d471836a",
+    "promotionRevision": "dcad38e79c685745da9afb45a3b05e168156d3d5",
+    "packageSourceRevision": "9040d72b4dbcdfbe7728d652f53a389a8b2c74e1"
+  },
+  "category": "特性版-TE（生命）",
+  "witness": {
+    "hp": 49409,
+    "actions": 4438,
+    "atk": 323,
+    "def": 457,
+    "gold": 538,
+    "shops": 15,
+    "input": "solution/49409-input.json",
+    "inputSha256": "73f892d6775035d0670aac8cfb3df9b5de5ca4af9b81afd3407ee2ad30a1a619",
+    "replay": "solution/49409.h5route",
+    "replaySha256": "e973cb47353f3112f55b2c0a66d7c1c5bc438641c32cad608784e5bea9b9d725"
+  },
+  "record": {
+    "checkedHp": 50675,
+    "targetHp": 50676,
+    "gap": 1267,
+    "leaderboardSubmissionMade": false
+  },
+  "verification": {
+    "native": {
+      "passed": true,
+      "continuous": true,
+      "initializations": 1,
+      "runtime": "typed-native",
+      "winReason": "特性版-TE（生命）",
+      "finalHp": 49409,
+      "finalGold": 538
+    },
+    "originalGame": {
+      "passed": true,
+      "freshInitialization": true,
+      "replayErrors": 0,
+      "exactPackedRoute": true,
+      "checkedAt": "2026-09-27T23:08:33.164Z",
+      "source": "H5 Mota 51 page"
+    },
+    "promotion": {
+      "passed": true,
+      "previousHp": 49401,
+      "gain": 8,
+      "normalHealing": true,
+      "exactInputs": true,
+      "leaderboardSubmissionMade": false
+    }
+  },
+  "world": {
+    "path": "world",
+    "manifestSha256": "fe077b82c108c318f70d4fb78a1f9fd2e884e0ca1bf917b925f9112a6f75c444"
+  }
+}
