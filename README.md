@@ -22,6 +22,8 @@ make verify
 `make verify` runs `build/mota-native-replay` on the included input. The replay
 should report one initialization, 4,438 applied actions, `typed-native`,
 `won50=true`, `native_win_reason=特性版-TE（生命）`, and final HP 49,409.
+This checks the native replay; the fresh original-game verification is recorded
+in `solution/manifest.json`.
 The same command can be run directly:
 
 ```sh

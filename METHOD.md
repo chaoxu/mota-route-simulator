@@ -10,8 +10,7 @@ The final route-level LNS search found a legal timing change on MT49. We leave
 the corner guard at `(5,2)` until after the fake-boss event. That event removes
 the guard and supplies a red key, saving 8 HP while giving up 100 gold. The
 route still funds fifteen shop purchases and finishes with 538 gold. The
-search report retained the 49,409-HP candidate and its 4,438 original game
-inputs.
+search retained the 49,409-HP candidate and its 4,438 original game inputs.
 
 The verification boundary is deliberate:
 

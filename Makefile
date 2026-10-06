@@ -34,7 +34,7 @@ build: $(BUILD_DIR)/mota-native-replay $(BUILD_DIR)/mota-goal-route
 replay: $(BUILD_DIR)/mota-native-replay
 search: $(BUILD_DIR)/mota-goal-route
 verify: replay
-	python3 tools/verify_solution.py
+	MOTA_BUILD_DIR="$(abspath $(BUILD_DIR))" python3 tools/verify_solution.py
 
 $(BUILD_DIR)/mota-native-replay: $(COMMON_OBJECTS) $(ENGINE_OBJECTS) $(REPLAY_OBJECT)
 	@mkdir -p $(@D)

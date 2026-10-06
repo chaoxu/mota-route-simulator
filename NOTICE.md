@@ -14,7 +14,7 @@ The selected Boost headers are accompanied by Boost's license in
 `cpp/third_party/LICENSE_1_0.txt`.
 
 `world/` and the native input preserve data and event-function strings exported
-from the public H5 Mota tower-51 page. The original game and its assets remain
+from the public [H5 Mota tower-51 page](https://h5mota.com/games/51/). The original game and its assets remain
 owned by their respective authors. The packed route is provided for research
 and replay; check the game's terms and obtain any permission needed before
 redistributing derived game data or hosting a public service.
